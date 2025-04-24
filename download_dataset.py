@@ -30,7 +30,7 @@ def download_images_and_annotations():
     print(f"Version: {version.name}")
 
     # Télécharger les assets (images)
-    print("⬇Téléchargement des images...")
+    print("Téléchargement des images...")
     assets = version.list_assets()
     assets.download(str(dataset_dir / "images"))
 
@@ -41,7 +41,6 @@ def download_images_and_annotations():
     )
 
     print(f"Téléchargement terminé dans : {dataset_dir}")
-
 
 if __name__ == "__main__":
     download_images_and_annotations()
