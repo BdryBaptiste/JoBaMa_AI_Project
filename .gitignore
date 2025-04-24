@@ -1,2 +1,82 @@
-
 data/CNAM_product_2025/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# VS Code settings
+.vscode/
+.code-workspace
+
+# PyCharm settings
+.idea/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints
+
+# Mac/Linux/Windows system files
+.DS_Store
+Thumbs.db
+
+# Python & pip artifacts
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+
+# Environment variables
+.env
+.env.*
+
+# Configs (sample versions should be committed instead)
+config.toml
+*.secret.*
+
+# Logs
+*.log
+logs/
+
+# Picsellia/Ultralytics/MLFlow/BentoML artifacts
+runs/
+mlruns/
+artifacts/
+models/
+*.pt
+*.onnx
+*.tflite
+*.yaml  # auto-generated config
+
+# Datasets
+data/
+datasets/
+annotations/
+
+# Testing cache
+.cache/
+pytest_cache/
+
+# Pre-commit / linting
+*.rej
+.pre-commit-config.yaml~
+
+# Coverage reports
+.coverage
+htmlcov/
+coverage.xml
+
+# MyPy and Pyright
+.mypy_cache/
+.pyright/
+
+# Ruff and Black
+ruff_cache/
