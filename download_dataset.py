@@ -34,8 +34,8 @@ def download_images_and_annotations():
     assets = version.list_assets()
     assets.download(str(dataset_dir / "images"))
 
-    # Exporter les annotations au format COCO
-    print("Export des annotations au format COCO...")
+    # Exporter les annotations au format YOLO
+    print("Export des annotations au format YOLO...")
     version.export_annotation_file(
         annotation_file_type=AnnotationFileType.YOLO, target_path=str(dataset_dir)
     )
